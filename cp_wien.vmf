@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6068"
-	"mapversion" "56"
+	"mapversion" "57"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "56"
+	"mapversion" "57"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -1400,9 +1400,9 @@ world
 		side
 		{
 			"id" "312"
-			"plane" "(4095 -1408 768) (4095 -512 768) (4096 -512 768)"
+			"plane" "(4096 -1408 768) (4096 -512 768) (4112 -512 768)"
 			"material" "CUSTOMDEV/DEV_MEASUREGENERIC01RED"
-			"uaxis" "[1 0 0 -112.721] 0.25"
+			"uaxis" "[1 0 0 11.2793] 4"
 			"vaxis" "[0 -1 0 -60.9477] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -1411,9 +1411,9 @@ world
 		side
 		{
 			"id" "311"
-			"plane" "(4095 -512 3.49997) (4095 -1408 3.49997) (4096 -1408 3.49997)"
+			"plane" "(4096 -512 3.49997) (4096 -1408 3.49997) (4112 -1408 3.49997)"
 			"material" "CUSTOMDEV/DEV_MEASUREGENERIC01RED"
-			"uaxis" "[1 0 0 -112.721] 0.25"
+			"uaxis" "[1 0 0 11.2793] 4"
 			"vaxis" "[0 -1 0 -60.9477] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -1422,7 +1422,7 @@ world
 		side
 		{
 			"id" "310"
-			"plane" "(4095 -1408 3.5) (4095 -512 3.5) (4095 -512 767.999)"
+			"plane" "(4096 -1408 3.5) (4096 -512 3.5) (4096 -512 768)"
 			"material" "CUSTOMDEV/DEV_MEASUREGENERIC01RED"
 			"uaxis" "[0 1 0 60.9477] 0.25"
 			"vaxis" "[0 0 -1 -14] 0.25"
@@ -1433,7 +1433,7 @@ world
 		side
 		{
 			"id" "309"
-			"plane" "(4096 -512 3.5) (4096 -1408 3.5) (4096 -1408 767.999)"
+			"plane" "(4112 -512 3.5) (4112 -1408 3.5) (4112 -1408 768)"
 			"material" "CUSTOMDEV/DEV_MEASUREGENERIC01RED"
 			"uaxis" "[0 1 0 60.9477] 0.25"
 			"vaxis" "[0 0 -1 -14] 0.25"
@@ -1444,9 +1444,9 @@ world
 		side
 		{
 			"id" "308"
-			"plane" "(4095 -512 3.5) (4096 -512 3.5) (4096 -512 767.999)"
+			"plane" "(4096 -512 3.5) (4112 -512 3.5) (4112 -512 768)"
 			"material" "CUSTOMDEV/DEV_MEASUREGENERIC01RED"
-			"uaxis" "[1 0 0 -112.721] 0.25"
+			"uaxis" "[1 0 0 11.2793] 4"
 			"vaxis" "[0 0 -1 -14] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -1455,9 +1455,9 @@ world
 		side
 		{
 			"id" "307"
-			"plane" "(4096 -1408 3.5) (4095 -1408 3.5) (4095 -1408 767.999)"
+			"plane" "(4112 -1408 3.5) (4096 -1408 3.5) (4096 -1408 768)"
 			"material" "CUSTOMDEV/DEV_MEASUREGENERIC01RED"
-			"uaxis" "[1 0 0 -112.721] 0.25"
+			"uaxis" "[1 0 0 11.2793] 4"
 			"vaxis" "[0 0 -1 -14] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -1476,9 +1476,9 @@ world
 		side
 		{
 			"id" "318"
-			"plane" "(4095 -256 768) (4095 256 768) (4096 256 768)"
+			"plane" "(4096 -256 768) (4096 256 768) (4112 256 768)"
 			"material" "CUSTOMDEV/DEV_MEASUREGENERIC01RED"
-			"uaxis" "[1 0 0 -112.721] 0.25"
+			"uaxis" "[1 0 0 11.2793] 4"
 			"vaxis" "[0 -1 0 -60.9481] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -1487,9 +1487,9 @@ world
 		side
 		{
 			"id" "317"
-			"plane" "(4095 256 3.49994) (4095 -256 3.49994) (4096 -256 3.49994)"
+			"plane" "(4096 256 3.49994) (4096 -256 3.49994) (4112 -256 3.49994)"
 			"material" "CUSTOMDEV/DEV_MEASUREGENERIC01RED"
-			"uaxis" "[1 0 0 -112.721] 0.25"
+			"uaxis" "[1 0 0 11.2793] 4"
 			"vaxis" "[0 -1 0 -60.9481] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -1498,7 +1498,7 @@ world
 		side
 		{
 			"id" "316"
-			"plane" "(4095 -256 3.49997) (4095 256 3.49997) (4095 256 767.999)"
+			"plane" "(4096 -256 3.49997) (4096 256 3.49997) (4096 256 768)"
 			"material" "CUSTOMDEV/DEV_MEASUREGENERIC01RED"
 			"uaxis" "[0 1 0 60.9481] 0.25"
 			"vaxis" "[0 0 -1 -14] 0.25"
@@ -1509,7 +1509,7 @@ world
 		side
 		{
 			"id" "315"
-			"plane" "(4096 256 3.49997) (4096 -256 3.49997) (4096 -256 767.999)"
+			"plane" "(4112 256 3.49997) (4112 -256 3.49997) (4112 -256 768)"
 			"material" "CUSTOMDEV/DEV_MEASUREGENERIC01RED"
 			"uaxis" "[0 1 0 60.9481] 0.25"
 			"vaxis" "[0 0 -1 -14] 0.25"
@@ -1520,9 +1520,9 @@ world
 		side
 		{
 			"id" "314"
-			"plane" "(4095 256 3.49997) (4096 256 3.49997) (4096 256 767.999)"
+			"plane" "(4096 256 3.49997) (4112 256 3.49997) (4112 256 768)"
 			"material" "CUSTOMDEV/DEV_MEASUREGENERIC01RED"
-			"uaxis" "[1 0 0 -112.721] 0.25"
+			"uaxis" "[1 0 0 11.2793] 4"
 			"vaxis" "[0 0 -1 -14] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -1531,9 +1531,9 @@ world
 		side
 		{
 			"id" "313"
-			"plane" "(4096 -256 3.49997) (4095 -256 3.49997) (4095 -256 767.999)"
+			"plane" "(4112 -256 3.49997) (4096 -256 3.49997) (4096 -256 768)"
 			"material" "CUSTOMDEV/DEV_MEASUREGENERIC01RED"
-			"uaxis" "[1 0 0 -112.721] 0.25"
+			"uaxis" "[1 0 0 11.2793] 4"
 			"vaxis" "[0 0 -1 -14] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -1552,9 +1552,9 @@ world
 		side
 		{
 			"id" "324"
-			"plane" "(4095 512 768) (4095 1408 768) (4096 1408 768)"
+			"plane" "(4096 512 768) (4096 1408 768) (4112 1408 768)"
 			"material" "CUSTOMDEV/DEV_MEASUREGENERIC01RED"
-			"uaxis" "[1 0 0 -112.721] 0.25"
+			"uaxis" "[1 0 0 11.2794] 4"
 			"vaxis" "[0 -1 0 67.0518] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -1563,9 +1563,9 @@ world
 		side
 		{
 			"id" "323"
-			"plane" "(4095 1408 3.49994) (4095 512 3.49994) (4096 512 3.49994)"
+			"plane" "(4096 1408 3.49994) (4096 512 3.49994) (4112 512 3.49994)"
 			"material" "CUSTOMDEV/DEV_MEASUREGENERIC01RED"
-			"uaxis" "[1 0 0 -112.721] 0.25"
+			"uaxis" "[1 0 0 11.2794] 4"
 			"vaxis" "[0 -1 0 67.0518] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -1574,7 +1574,7 @@ world
 		side
 		{
 			"id" "322"
-			"plane" "(4095 512 3.49997) (4095 1408 3.49997) (4095 1408 767.999)"
+			"plane" "(4096 512 3.49997) (4096 1408 3.49997) (4096 1408 768)"
 			"material" "CUSTOMDEV/DEV_MEASUREGENERIC01RED"
 			"uaxis" "[0 1 0 -67.0518] 0.25"
 			"vaxis" "[0 0 -1 -14] 0.25"
@@ -1585,7 +1585,7 @@ world
 		side
 		{
 			"id" "321"
-			"plane" "(4096 1408 3.49997) (4096 512 3.49997) (4096 512 767.999)"
+			"plane" "(4112 1408 3.49997) (4112 512 3.49997) (4112 512 768)"
 			"material" "CUSTOMDEV/DEV_MEASUREGENERIC01RED"
 			"uaxis" "[0 1 0 -67.0518] 0.25"
 			"vaxis" "[0 0 -1 -14] 0.25"
@@ -1596,9 +1596,9 @@ world
 		side
 		{
 			"id" "320"
-			"plane" "(4095 1408 3.49997) (4096 1408 3.49997) (4096 1408 767.999)"
+			"plane" "(4096 1408 3.49997) (4112 1408 3.49997) (4112 1408 768)"
 			"material" "CUSTOMDEV/DEV_MEASUREGENERIC01RED"
-			"uaxis" "[1 0 0 -112.721] 0.25"
+			"uaxis" "[1 0 0 11.2794] 4"
 			"vaxis" "[0 0 -1 -14] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -1607,9 +1607,9 @@ world
 		side
 		{
 			"id" "319"
-			"plane" "(4096 512 3.49997) (4095 512 3.49997) (4095 512 767.999)"
+			"plane" "(4112 512 3.49997) (4096 512 3.49997) (4096 512 768)"
 			"material" "CUSTOMDEV/DEV_MEASUREGENERIC01RED"
-			"uaxis" "[1 0 0 -112.721] 0.25"
+			"uaxis" "[1 0 0 11.2794] 4"
 			"vaxis" "[0 0 -1 -14] 0.25"
 			"rotation" "0"
 			"lightmapscale" "16"
