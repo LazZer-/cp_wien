@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6068"
-	"mapversion" "67"
+	"mapversion" "66"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "67"
+	"mapversion" "66"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -3001,10 +3001,10 @@ world
 		side
 		{
 			"id" "486"
-			"plane" "(768 -1296 544) (768 784 544) (1024 784 544)"
+			"plane" "(768 -1280 544) (768 784 544) (1024 784 544)"
 			"material" "CUSTOMDEV/DEV_MEASUREGENERIC01RED"
 			"uaxis" "[1 0 0 50] 64"
-			"vaxis" "[0 -1 0 67.9384] 1.01562"
+			"vaxis" "[0 -1 0 73.9224] 1.00781"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -3012,10 +3012,10 @@ world
 		side
 		{
 			"id" "485"
-			"plane" "(768 784 512) (768 -1296 512) (1024 -1296 512)"
+			"plane" "(768 784 512) (768 -1280 512) (1024 -1280 512)"
 			"material" "CUSTOMDEV/DEV_MEASUREGENERIC01RED"
 			"uaxis" "[1 0 0 50] 64"
-			"vaxis" "[0 -1 0 67.9384] 1.01562"
+			"vaxis" "[0 -1 0 73.9224] 1.00781"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -3023,9 +3023,9 @@ world
 		side
 		{
 			"id" "484"
-			"plane" "(768 -1296 512) (768 784 512) (768 784 544)"
+			"plane" "(768 -1280 512) (768 784 512) (768 784 544)"
 			"material" "CUSTOMDEV/DEV_MEASUREGENERIC01RED"
-			"uaxis" "[0 1 0 -67.9384] 1.01562"
+			"uaxis" "[0 1 0 -73.9224] 1.00781"
 			"vaxis" "[0 0 -1 89.0078] 0.0104644"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -3034,9 +3034,9 @@ world
 		side
 		{
 			"id" "483"
-			"plane" "(1024 784 512) (1024 -1296 512) (1024 -1296 544)"
+			"plane" "(1024 784 512) (1024 -1280 512) (1024 -1280 544)"
 			"material" "CUSTOMDEV/DEV_MEASUREGENERIC01RED"
-			"uaxis" "[0 1 0 -67.9384] 1.01562"
+			"uaxis" "[0 1 0 -73.9224] 1.00781"
 			"vaxis" "[0 0 -1 89.0078] 0.0104644"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -3056,7 +3056,7 @@ world
 		side
 		{
 			"id" "481"
-			"plane" "(1024 -1296 512) (768 -1296 512) (768 -1296 544)"
+			"plane" "(1024 -1280 512) (768 -1280 512) (768 -1280 544)"
 			"material" "CUSTOMDEV/DEV_MEASUREGENERIC01RED"
 			"uaxis" "[1 0 0 50] 64"
 			"vaxis" "[0 0 -1 89.0078] 0.0104644"
