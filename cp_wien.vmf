@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6068"
-	"mapversion" "57"
+	"mapversion" "58"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "57"
+	"mapversion" "58"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -43,7 +43,7 @@ world
 		side
 		{
 			"id" "44"
-			"plane" "(-5120 1536 -1) (-5120 -1536 -1) (5120 -1536 -1)"
+			"plane" "(-5120 1536 -32) (-5120 -1536 -32) (5120 -1536 -32)"
 			"material" "DEV/DEV_BLENDMEASURE"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -54,10 +54,10 @@ world
 		side
 		{
 			"id" "45"
-			"plane" "(-5120 -1536 -1) (-5120 1536 -1) (-5120 1536 0)"
+			"plane" "(-5120 -1536 -32) (-5120 1536 -32) (-5120 1536 0)"
 			"material" "DEV/DEV_BLENDMEASURE"
 			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 -4] 0.25"
+			"vaxis" "[0 0 -1 -4] 8"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -65,10 +65,10 @@ world
 		side
 		{
 			"id" "46"
-			"plane" "(5120 1536 -1) (5120 -1536 -1) (5120 -1536 0)"
+			"plane" "(5120 1536 -32) (5120 -1536 -32) (5120 -1536 0)"
 			"material" "DEV/DEV_BLENDMEASURE"
 			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 -4] 0.25"
+			"vaxis" "[0 0 -1 -4] 8"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -76,10 +76,10 @@ world
 		side
 		{
 			"id" "47"
-			"plane" "(-5120 1536 -1) (5120 1536 -1) (5120 1536 0)"
+			"plane" "(-5120 1536 -32) (5120 1536 -32) (5120 1536 0)"
 			"material" "DEV/DEV_BLENDMEASURE"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 -4] 0.25"
+			"vaxis" "[0 0 -1 -4] 8"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -87,10 +87,10 @@ world
 		side
 		{
 			"id" "48"
-			"plane" "(5120 -1536 -1) (-5120 -1536 -1) (-5120 -1536 0)"
+			"plane" "(5120 -1536 -32) (-5120 -1536 -32) (-5120 -1536 0)"
 			"material" "DEV/DEV_BLENDMEASURE"
 			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 -4] 0.25"
+			"vaxis" "[0 0 -1 -4] 8"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -1639,7 +1639,7 @@ world
 		side
 		{
 			"id" "35"
-			"plane" "(-5118.18 1534.5 3070) (-5118.18 1536 3070) (5118.18 1536 3070)"
+			"plane" "(-5118.18 1534.49 3070) (-5118.18 1536 3070) (5118.18 1536 3070)"
 			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -1661,7 +1661,7 @@ world
 		side
 		{
 			"id" "33"
-			"plane" "(-5118.18 1534.5 0) (-5118.18 1536 0) (-5118.18 1536 3070)"
+			"plane" "(-5118.18 1534.49 0) (-5118.18 1536 0) (-5118.18 1536 3070)"
 			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -1804,7 +1804,7 @@ world
 		side
 		{
 			"id" "40"
-			"plane" "(-5118.18 -1534.5 0) (-5118.18 -1536 0) (5118.18 -1536 0)"
+			"plane" "(-5118.18 -1534.49 0) (-5118.18 -1536 0) (5118.18 -1536 0)"
 			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -1826,7 +1826,7 @@ world
 		side
 		{
 			"id" "38"
-			"plane" "(5118.18 -1534.5 0) (5118.18 -1536 0) (5118.18 -1536 3070)"
+			"plane" "(5118.18 -1534.49 0) (5118.18 -1536 0) (5118.18 -1536 3070)"
 			"material" "TOOLS/TOOLSSKYBOX"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -2327,6 +2327,7 @@ entity
 	"id" "23"
 	"classname" "info_player_teamspawn"
 	"angles" "0 180 0"
+	"TeamNum" "3"
 	"origin" "4352 256 48"
 	editor
 	{
@@ -2429,6 +2430,21 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "475"
+	"classname" "info_player_teamspawn"
+	"angles" "0 0 0"
+	"TeamNum" "2"
+	"origin" "-4336 16 48"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
 	}
 }
 cameras
